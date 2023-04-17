@@ -1,0 +1,83 @@
+.start {
+    color: black;
+    font: optional;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  ul{
+    list-style: none;
+  }
+  .imp {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+    color:black;
+  }
+  
+  .imp button {
+    color: white;
+    background-color: blue;
+  }
+  
+  .img {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 70px;
+    margin: 20px;
+  }
+  img img{
+    width: 70px;
+    height: 70px;
+  }
+  
+  .search-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto; 
+    margin-right: auto; 
+    border: solid #dfe1e5;
+    border-radius: 15px;
+    padding: 10px;
+    width: 500px;
+    height: 10px;
+  }
+  
+  .search-bar input[type="text"] {
+    flex: 1;
+    justify-content: flex-start;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+  }
+  
+  .search {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  button.margin {
+    margin-right: 30px;
+    border: solid #f5f7f8;
+    background-color: #f6f7fb;
+  }
+  button.magneta {
+    margin-right: 30px;
+    border: solid #f6f8fb;
+    background-color: #f6f7fa;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: center;
+    color: #020202;
+    margin-top: 20px;
+    font-size: small;
+  }
+  
